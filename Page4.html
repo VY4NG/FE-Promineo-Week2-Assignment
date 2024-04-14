@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast Your Vote</title>
+</head>
+<body>
+
+<!--Here is the link to the CSS stylesheet.-->
+<link rel="stylesheet" href="styles.css">
+
+    <h1>Cast Your Vote</h1>
+    
+<!--Here are the links to each page. Class selector applied.-->
+    <div class="links-div">
+        <a href="index.html">Home Page</a><br>
+        <a href="Page1.html">Anime #1</a><br>
+        <a href="Page2.html">Anime #2</a><br>
+        <a href="Page3.html">Anime #3</a><br>
+        <a href="Page4.html">Cast Your Vote</a><br>
+    </div>
+<br>
+
+<section>
+    <p>What is your favorite anime based off of my top three and in what order? I'd like to know, 
+    please put your name and your vote below!</p>
+<br>
+
+<!--Form placed here so visiters can vote their order of favorite anime based on the list. Visiters are asked to put
+their first and last name.-->
+<form>
+    <input type="text" name="firstName" placeholder="First Name"><br>
+    <input type="text" name="lastName" placeholder="Last Name"><br>
+    <br>
+
+<!--Table added here for voting submission.-->
+    <!--ID selectors applied to the table, table rows, and table headers.-->
+        <table id="table">
+            <tr id="tr">
+                <th id="th">Rank</th>
+                <th id="th">Dragon Ball</th>
+                <th id="th">Attack on Titan</th>
+                <th id="th">Demon Slayer</th>
+            </tr>
+            <tr id="tr">
+                <th id="th">#1</th>
+                <th id="th"><input type="radio"></th>
+                <th id="th"><input type="radio"></th>
+                <th id="th"><input type="radio"></th>
+            </tr>
+            <tr id="tr">
+                <th id="th">#2</th>
+                <th id="th"><input type="radio"></th>
+                <th id="th"><input type="radio"></th>
+                <th id="th"><input type="radio"></th>
+            </tr>
+            <tr>
+                <th id="th">#3</th>
+                <th id="th"><input type="radio"></th>
+                <th id="th"><input type="radio"></th>
+                <th id="th"><input type="radio"></th>
+            </tr>
+        </table>
+<br>
+
+    <input type="submit" value="Submit">
+
+</section>
+</form>
+
+</body>
+</html>

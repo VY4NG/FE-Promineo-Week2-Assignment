@@ -1,0 +1,77 @@
+/* ---Element Selectors--- */
+
+body {
+    background-color: rgb(197, 131, 51);
+    margin: 1rem 5rem;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+ol li {
+    padding: 5px
+}
+
+img {
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+form {
+    text-align: center;
+}
+
+/* ---Custom Class Name Selectors; uses the dot (.)--- */
+
+.links-div {
+    max-width: 500px;
+    margin: 5rem auto;
+    background-color: rgb(70, 143, 246);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.img-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ---Custom ID Name Selectors; uses the hashtag (#)--- */
+
+#table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    border-collapse: collapse;
+    width: 50%;  
+}
+
+#tr {
+    border-bottom: solid 1px black;
+
+}
+
+#th {
+    border: solid 1px black;
+}
